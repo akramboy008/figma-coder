@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navigation{
+    width:95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.navigation_logo{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation_logo h1{
+    font-weight: 500;
+}
+.navigation_collection a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: rgb(39, 37, 37);
+}
+.navigation button{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #242424;
+    color: #fff;
+}
+
+.container{
+    width: 95%;
+    height: 550px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+}
+
+.left{
+}
+.left h1{
+    font-size: 55px;
+    padding-top: 50px;
+}
+.left p{
+    margin-top: 20px;
+    width: 350px;
+    color: gray;
+}
+.btn{
+    display: flex;
+    margin-top: 50px;
+}
+.btn button{
+    width: 120px;
+    height: 35px;
+    background-color: #ffea33;
+    border: none;
+    border-radius: 5px;
+}
+.btn h6{
+    width: 150px;
+    margin: 8px;
+    color: gray;
+}
+.right{
+    background-image: url("./container.png");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.text{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.text h1{
+    margin-top: 5px;
+}
+.text h2{
+    color: gray;
+}
+.container2{
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+.left2{
+    width: 50%;
+    height: 100%;
+}
+.left2 p{
+    width: 550px;
+    margin-top: 10px;
+}
+.right2{
+    background-image: url("./Rectangle.png");
+    width: 50%;
+    height: 100%;
+    
+    background-size: 100%;
+}
+.btn1{
+    background-color: #ffea33;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+.btn2{
+    background: #FFB0AE;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;margin-left: 30px;
+}
+.text2 h1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container3{
+    width: 99%;
+    height:1000px;
+    background-image: url("./container3.png");
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.text3 p{
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 33%;
+
+}
